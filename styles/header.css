@@ -6,7 +6,7 @@ header {
 }
 
 header i {
-    font-size: 1.4rem;
+    font-size: 2.4rem;
     color: #e9a209;
 }
 
@@ -17,14 +17,23 @@ header i {
     padding: 5px;
 }
 
+.menu-item {
+    font-size: 1.6rem;
+    font-weight: bold;
+    margin: 10px;
+}
+
 .nav-bar {
     display: flex;
     flex-direction: column;
 }
 
 header .btn-default {
-    max-width: 100px;
+    width: 100px;
+    padding: 10px;
     margin: auto;
+    font-weight: bold;
+    font-size: 1.4rem;
 }
 
 
