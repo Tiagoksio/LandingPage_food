@@ -1,0 +1,44 @@
+header {
+    padding: 28px;
+    position: sticky;
+    top: 0;
+    background-color: #fff9ea;
+}
+
+header i {
+    font-size: 1.4rem;
+    color: #e9a209;
+}
+
+.menu {
+    list-style: none;
+    text-align: center;
+    position: relative;
+    padding: 5px;
+}
+
+.nav-bar {
+    display: flex;
+    flex-direction: column;
+}
+
+header .btn-default {
+    max-width: 100px;
+    margin: auto;
+}
+
+
+.btn-mobile {
+    position: absolute;
+
+    top: 28px;
+    right: 28px;
+
+    border: none;
+    background-color: #fff9ea;
+}
+
+
+main {
+    height: 2000px;
+}
