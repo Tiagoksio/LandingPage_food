@@ -15,7 +15,8 @@ body {
 
 a {
     text-decoration: none;
-    color: #1d1d1d;
+    color: #1d1d1dad;
+    font-weight: 400;
 }
 
 .btn-default {
@@ -33,4 +34,17 @@ a {
 
 p {
     font-size: 1.6rem;
+}
+
+h2 {
+    font-size: 2.4rem;
+    color: #e9a209;
+    font-weight: bold;
+}
+h3 {
+    font-size: 3.2rem;
+    font-weight: bold;
+}
+h4 {
+    font-size: 1.8rem;
 }

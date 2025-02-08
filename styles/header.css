@@ -3,6 +3,7 @@ header {
     position: sticky;
     top: 0;
     background-color: #fff9ea;
+    z-index: 3;
 }
 
 header i {
@@ -10,17 +11,16 @@ header i {
     color: #e9a209;
 }
 
-.menu {
+.nav-menu {
     list-style: none;
     text-align: center;
     position: relative;
-    padding: 5px;
 }
 
 .menu-item {
     font-size: 1.6rem;
     font-weight: bold;
-    margin: 10px;
+    margin: 12px;
 }
 
 .nav-bar {
