@@ -1,0 +1,14 @@
+.footer-items {
+    text-align: center;
+    font-weight: 500;
+    padding: 28px;
+    padding-top: 0;
+}
+
+footer {
+    background-color: #ffe8b4;
+}
+
+footer p {
+    padding: 20px;
+}
