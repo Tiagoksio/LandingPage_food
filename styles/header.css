@@ -3,7 +3,7 @@ header {
     position: sticky;
     top: 0;
     background-color: #fff9ea;
-    z-index: 3;
+    z-index: 1;
 }
 
 header i {
@@ -21,6 +21,10 @@ header i {
     font-size: 1.6rem;
     font-weight: bold;
     margin: 12px;
+}
+
+.menu-item a {
+    font-weight: bold;
 }
 
 .nav-bar {
