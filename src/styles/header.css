@@ -12,16 +12,25 @@ header i {
 }
 
 .nav-menu {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
     list-style: none;
     text-align: center;
     position: relative;
+    margin-bottom: 15px;
 }
 
 .menu-item {
     font-size: 1.6rem;
     font-weight: bold;
-    margin: 12px;
 }
+
+.menu-item .btn-default {
+    position: relative;
+    top: 10px;
+}
+
 
 .menu-item a {
     font-weight: bold;
