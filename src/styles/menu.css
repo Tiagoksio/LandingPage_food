@@ -1,6 +1,8 @@
 .menu {
     text-align: center;
     padding: 28px 0 28px 0;
+    display: flex;
+    flex-direction: column;
 }
 
 .card {
@@ -60,3 +62,21 @@
 .shopping i {
     font-size: 1.6rem
 }
+
+
+@media screen and (min-width: 600px) {
+    .menu {
+        display: flex;
+        flex-direction: column;
+    }
+    .cards-menu {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 18px;
+    }
+    .card {
+        max-width: calc(50% - 10px) ;        
+    }    
+}
+
