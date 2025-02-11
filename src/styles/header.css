@@ -26,7 +26,7 @@ header i {
     font-weight: bold;
 }
 
-.menu-item .btn-default {
+.btn-topBar {
     position: relative;
     top: 10px;
 }
@@ -58,4 +58,44 @@ header .btn-default {
 
     border: none;
     background-color: #fff9ea;
+}
+
+@media screen and (min-width: 1170px) {
+    .btn-mobile {
+        display: none;
+    }
+
+    .nav-bar {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        
+    }
+
+    .nav-menu {
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 0;
+        position: static;
+        gap: 48px;
+    }
+    .btn-topBar {
+        position: absolute;
+        top: 28px;
+        right: 8%;
+    }
+    .fa-burger {
+        position: absolute;
+        top: 28px;
+        left: 8%;
+    }
+    .menu-item {
+        text-decoration: #ffe100;
+    }
+    .menu-item:hover {
+        text-decoration: underline 3px #ffe100;
+        transform: translateY(-3px);
+        transition-duration: 0.5s;
+        font-weight: 900;        
+    }
 }
