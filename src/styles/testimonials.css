@@ -8,6 +8,10 @@
 
 }
 
+.chef {
+    display: none;
+}
+
 .testimonials .card .assessment {
     display: flex;
     align-items: center;
@@ -29,4 +33,30 @@
         align-items: center;
     }
     
+}
+
+@media screen and (min-width: 1170px) {
+    .chef {
+        display: flex;
+    }
+
+    .chef img {
+        width: 500px;
+    }
+
+    .testimonials .card {
+        margin: 28px 8%;
+        max-width: 80%;
+        
+
+    }
+
+    .testimonials {
+        min-width: calc(100vh - 91px);
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 48px;
+    }
+
 }
