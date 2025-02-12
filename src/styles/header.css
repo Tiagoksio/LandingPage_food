@@ -1,5 +1,5 @@
 header {
-    padding: 28px;
+    padding: 28px 8%;
     position: sticky;
     top: 0;
     background-color: #fff9ea;
@@ -68,8 +68,7 @@ header .btn-default {
     .nav-bar {
         display: flex;
         flex-direction: row;
-        justify-content: center;
-        
+        justify-content: center;        
     }
 
     .nav-menu {

@@ -29,7 +29,9 @@ a {
 }
 
 .content {
-    padding: 28px;
+    padding: 28px 8%;
+    display: flex;
+    flex-direction: column;
 }
 
 p {

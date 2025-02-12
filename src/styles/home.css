@@ -1,7 +1,6 @@
 h1 {
     text-align: center;
     font-size: 6.4rem;
-    margin-bottom: 20px;
 }
 
 h1 span {
@@ -19,8 +18,18 @@ h1 span {
     gap: 28px;
 }
 
+.home-conteiner {
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+}
+
 .home .btn-default {
     padding: 10px 14px;
+}
+
+.banner {
+    display: none;
 }
 
 .btn-home {
@@ -60,4 +69,58 @@ h1 span {
         display: inline-block;
         font-size: 1.2rem;        
     }
+
+
+    .home-conteiner {
+        display: flex;
+        flex-direction: column;
+        gap: 28px;
+    }
+}
+
+@media screen and (min-width: 1170px) {
+    .home {
+        display: flex;
+        flex-direction: row;
+        min-height: calc(100vh - 91px);
+    }
+
+    .home-conteiner {
+        max-width: 30%;
+        display: flex;
+        flex-direction: column;
+        gap: 28px;
+        margin-top: 5%;        
+        
+    }
+
+    .home-conteiner h1, p, .btn-home, .social-media {
+        text-align: left;
+        justify-content: left;
+    }
+
+    .banner {
+        display: flex;
+        align-items: start;
+        justify-content: end;
+        width: 70%;
+    }
+
+    .banner img {
+        height: 100%;
+        width: fit-content;
+    }
+
+    .shape {
+        background-color: #ffe8b4;
+        width: 50%;
+        height: 100%;
+        position: absolute;
+        border-radius: 40% 30% 0% 20%;
+        top: 0;
+        right: 0;
+        z-index: -1;
+    }
+
+
 }
