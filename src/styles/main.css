@@ -50,3 +50,10 @@ h3 {
 h4 {
     font-size: 1.8rem;
 }
+
+@media screen and (min-width: 1170px) {
+    .content {
+        display: flex;
+        gap: 90px;
+    }
+}
