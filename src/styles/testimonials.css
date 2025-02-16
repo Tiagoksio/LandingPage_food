@@ -8,16 +8,33 @@
 
 }
 
+.testimonials-conteiner .card {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
 .chef {
     display: none;
 }
 
-.testimonials .card .assessment {
+.assessment {
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-    
+    flex-direction: column;
 }
+.note {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.customer-photo {
+    max-height: 100px;
+    max-width: 100px;
+    align-self: center;
+}
+
 
 .testimonials button {
     padding: 10px;
@@ -27,36 +44,51 @@
 }
 
 @media screen and (min-width: 600px) {
-    .testimonials {
+
+    .testimonials-conteiner {
         display: flex;
         flex-direction: column;
-        align-items: center;
     }
-    
+
+    .testimonials-conteiner .card {
+        flex-direction: row;
+        justify-self: center;
+    }     
 }
 
 @media screen and (min-width: 1170px) {
+    .testimonials {
+        display: flex;
+        min-width: calc(100vh - 91px);
+        flex-direction: row;
+        align-items: center;
+        gap: 48px;
+        text-align: left;
+    }
+    
     .chef {
         display: flex;
     }
 
     .chef img {
-        width: 500px;
+        overflow: clip;
+        max-height: 500px;
     }
 
     .testimonials .card {
-        margin: 28px 8%;
         max-width: 80%;
+        display: flex;
+        justify-self: flex-start;
+    }
+
+    .testimonials-conteiner button {
+        max-width: 200px;
         
-
     }
 
-    .testimonials {
-        min-width: calc(100vh - 91px);
-        flex-direction: row;
-        align-items: center;
-        justify-content: center;
-        gap: 48px;
-    }
+
+    
+
+    
 
 }
