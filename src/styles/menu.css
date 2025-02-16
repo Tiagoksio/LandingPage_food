@@ -54,6 +54,10 @@
     font-size: 1.6rem
 }
 
+.cards-menu {
+    animation: fade-in__left 3s;
+}
+
 
 @media screen and (min-width: 600px) {
     .menu {

@@ -43,6 +43,10 @@
     margin: 28px;
 }
 
+.feedbacks .card{
+    animation: fade-in__right 5s;
+}
+
 @media screen and (min-width: 600px) {
 
     .testimonials-conteiner {

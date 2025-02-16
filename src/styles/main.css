@@ -60,6 +60,21 @@ h4 {
     font-size: 1.8rem;
 }
 
+@keyframes fade-in__left {
+    0% {
+        opacity: 0;
+        transform: translateX(-50%);
+    }
+}
+
+@keyframes fade-in__right {
+    0% {
+        opacity: 0;
+        transform: translateX(50%);
+    }
+
+}
+
 @media screen and (min-width: 1170px) {
     .content {
         display: flex;
