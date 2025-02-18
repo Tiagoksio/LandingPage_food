@@ -13,6 +13,11 @@ class DomController {
     }
     openCloseMobileMenu() {
         this.topBarMenuDisplay.style.display = this.topBarMenuDisplay.style.display === "flex" ? "none" : "flex"
+        this.animationBurger()
+    }
+
+    animationBurger() {
+        this.mobile_btn.classList.toggle("active")
     }
     
 }

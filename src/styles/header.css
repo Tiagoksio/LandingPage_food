@@ -57,8 +57,38 @@ header .btn-default {
     right: 28px;
 
     border: none;
-    background-color: #fff9ea;
+    background: none;
+    border-top: 3px solid #1d1d1dad;
+    cursor: pointer;
 }
+
+
+  
+.btn-mobile::after,
+.btn-mobile::before {
+    content: " ";
+    display: block;
+    width: 30px;
+    height: 3px;
+    background: #1d1d1dad;
+    margin-top: 5px;
+    position: relative;
+    transition: 0.3s;    
+}
+
+.active {
+    border-top: none;
+}
+
+.active:before {
+    transform: rotate(135deg);
+}
+
+.active:after {
+    transform: rotate(-135deg);
+    top: -7px;
+}
+  
 
 @media screen and (min-width: 1170px) {
     .btn-mobile {
