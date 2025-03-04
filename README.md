@@ -26,5 +26,6 @@ A aplicação foi desenvolvida com base no projeto [landing-page-food-theme](htt
 - Google Fonts: `Poppins`
 
 ## Como Utilizar
-1. Clone este repositório.
-2. Abra o arquivo `index.html` em seu navegador web preferido.
+- Acesse através da [site](tiagoksio.github.io/LandingPage_food/);<br>
+ou
+- Clone este repositório e abra o arquivo `index.html` em seu navegador.
